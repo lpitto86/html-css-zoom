@@ -12,3 +12,27 @@ html {
     max-width: 1200px;
     margin: 0 auto,
 }
+
+header {
+    height: 40px;
+    text-align: right;
+    padding: 5px;
+}
+
+header button {
+    background-color: #4a4a4a;
+    color: white;
+    border-radius: 3px;
+    padding: 2px 4px;
+    border: none;
+}
+
+main {
+    height: calc(100vh - 140px);
+}
+
+footer {
+    height: 100px;
+    background-color: #222222;
+    display: flex;
+}
