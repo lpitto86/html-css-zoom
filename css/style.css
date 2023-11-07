@@ -12,6 +12,7 @@ header {
     height: 40px;
     text-align: right;
     padding: 5px;
+    background-color: black;
 }
 
 header button {
@@ -24,6 +25,7 @@ header button {
 
 main {
     height: calc(100vh - 140px);
+    background-color: black;
 }
 
 .cameras {
@@ -60,14 +62,13 @@ main {
 }
 
 main .cameras {
-    /*background-color: aqua;*/
+    /*margin: 5px;*/
 }
 
 main .cameras > div {
     height: 100px;
     width: 200px;
-    background-color: red;
-    border: 2px dashed yellow;
+    border: 2px solid black;
 }
 
 footer {
