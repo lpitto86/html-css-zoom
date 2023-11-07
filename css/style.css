@@ -26,8 +26,87 @@ main {
     height: calc(100vh - 140px);
 }
 
+.cameras {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.cameras > div {
+    margin: 5px;
+    width: 250px;
+    height: 150px;
+    color: white;
+    position: relative;
+}
+
+.cameras > div img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cameras > div span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(236, 236, 236, 0.5);
+    padding: 4px 6px;
+    font-size: 0.75em;
+}
+
+main .cameras {
+    /*background-color: aqua;*/
+}
+
+main .cameras > div {
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    border: 2px dashed yellow;
+}
+
 footer {
     height: 100px;
     background-color: #222222;
+    color: white;
     display: flex;
+    justify-content: space-between;
+}
+
+footer > div {
+    display: flex;
+}
+
+footer > div > * {
+    height: 100%;
+}
+
+footer button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+}
+
+footer button > div {
+    margin-top: 8px;
+}
+
+#share-icon {
+    color: green;
+}
+
+#end-meeting-button {
+    color: red;
+    background-color: #4a4a4a;
+    padding: 10px;
+}
+
+footer button > div:last-child {
+    margin-top: 8px;
 }
