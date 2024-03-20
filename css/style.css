@@ -18,9 +18,11 @@ header {
 header button {
     background-color: #4a4a4a;
     color: white;
+    font-size: 1.1em;
+    font-weight: 400;
     border-radius: 3px;
-    padding: 2px 4px;
-    border: none;
+    padding: 4px;
+    border-radius: 6px;
 }
 
 main {
@@ -32,9 +34,7 @@ main {
     height: 100%;
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-start;
     justify-content: center;
-    overflow-y: auto;
 }
 
 .cameras > div {
@@ -61,10 +61,6 @@ main {
     font-size: 0.75em;
 }
 
-main .cameras {
-    /*margin: 5px;*/
-}
-
 main .cameras > div {
     height: 100px;
     width: 200px;
@@ -72,7 +68,7 @@ main .cameras > div {
 }
 
 footer {
-    height: 100px;
+    height: 80px;
     background-color: #222222;
     color: white;
     display: flex;
@@ -91,7 +87,7 @@ footer button {
     border: none;
     background-color: transparent;
     color: white;
-    padding: 5px;
+    padding: 3px 6px;
 }
 
 footer button > div {
